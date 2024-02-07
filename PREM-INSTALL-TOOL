@@ -1,0 +1,15 @@
+#!/bin/bash
+apt update && apt upgrade -y
+if ! hash nodejs > /dev/null 2>&1 ; then
+apt install nodejs -y
+fi
+if ! hash python > /dev/null 2>&1 ; then
+apt install python -y
+fi
+if ! bash-obfuscate > /dev/null 2>&1 ; then
+npm -g install bash-obfuscate 
+fi
+curl -O https://raw.githubusercontent.com/Anon4You/EncTool/main/enctool
+mv PREM-DECOMPILED $PATH
+chmod +x $PATH/PREM-DECOMPILED && clear
+printf "SUCCESSFUL INSTALL PREM PROJECT DECOMPILED IN YOUR DEVICE\nYOU CAN RUN IT BY SIMPLE TYPING\e[32mPREM-DECOMPILED\e[0m HAVE FUN 🙂🤞"
