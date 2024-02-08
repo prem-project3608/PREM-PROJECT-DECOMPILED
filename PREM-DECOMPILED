@@ -108,7 +108,7 @@ def encpy():
     fileout.write('exec(marshal.loads(' + repr(data) + '))')
     fileout.close()
     time.sleep(3)
-    print ('SUCCECSFULL PREM PROJECT ' + SAVED AS + '_en.py')
+    print ('SUCCECSFULL PREM PROJECT' + SAVED AS + '_en.py')
 
 # Choses
 if choice=='1':
