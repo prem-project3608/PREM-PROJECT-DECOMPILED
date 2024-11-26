@@ -10,18 +10,3 @@
 [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@premfilm)
 
 ![Image](https://i.imgur.com/rZxmABp.png)
-
-```bash
-git clone https://github.com/prem-project3608/PREM-PROJECT-ENCRYPT-TOOL.git
-```
-
-```bash
-cd PREM-PROJECT-ENCRYPT-TOOL
-```
-```bash
-python2 PREM-PYTHON-2.py 
-```
-
-```bash
-python3 PREM-PYTHON-3.py
-```
